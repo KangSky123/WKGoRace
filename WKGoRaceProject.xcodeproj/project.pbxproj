@@ -14,8 +14,8 @@
 		EC7910B01F67CEF7000B57BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7910AE1F67CEF7000B57BC /* LaunchScreen.storyboard */; };
 		EC7910BB1F67CEF7000B57BC /* WKGoRaceProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7910BA1F67CEF7000B57BC /* WKGoRaceProjectTests.swift */; };
 		EC7910C61F67CEF7000B57BC /* WKGoRaceProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7910C51F67CEF7000B57BC /* WKGoRaceProjectUITests.swift */; };
-		EC7910DD1F67E012000B57BC /* WKUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7910DC1F67E012000B57BC /* WKUserModel.swift */; };
-		EC7910DF1F67E029000B57BC /* WKViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7910DE1F67E029000B57BC /* WKViewModel.swift */; };
+		EC7910E21F67E122000B57BC /* WKUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7910E01F67E122000B57BC /* WKUserModel.swift */; };
+		EC7910E31F67E122000B57BC /* WKViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7910E11F67E122000B57BC /* WKViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +49,8 @@
 		EC7910C11F67CEF7000B57BC /* WKGoRaceProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKGoRaceProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC7910C51F67CEF7000B57BC /* WKGoRaceProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKGoRaceProjectUITests.swift; sourceTree = "<group>"; };
 		EC7910C71F67CEF7000B57BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EC7910DC1F67E012000B57BC /* WKUserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WKUserModel.swift; path = ../../../../../Documents/WKUserModel.swift; sourceTree = "<group>"; };
-		EC7910DE1F67E029000B57BC /* WKViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WKViewModel.swift; path = ../../../../../Documents/WKViewModel.swift; sourceTree = "<group>"; };
+		EC7910E01F67E122000B57BC /* WKUserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKUserModel.swift; sourceTree = "<group>"; };
+		EC7910E11F67E122000B57BC /* WKViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,11 +133,11 @@
 		EC7910D31F67CF05000B57BC /* WKClass */ = {
 			isa = PBXGroup;
 			children = (
-				EC7910DC1F67E012000B57BC /* WKUserModel.swift */,
-				EC7910DE1F67E029000B57BC /* WKViewModel.swift */,
+				EC7910E01F67E122000B57BC /* WKUserModel.swift */,
+				EC7910E11F67E122000B57BC /* WKViewModel.swift */,
 			);
 			name = WKClass;
-			path = WKClass/WKClass;
+			path = ../../../Documents/WKClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,9 +277,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC7910DD1F67E012000B57BC /* WKUserModel.swift in Sources */,
+				EC7910E21F67E122000B57BC /* WKUserModel.swift in Sources */,
 				EC7910A81F67CEF7000B57BC /* ViewController.swift in Sources */,
-				EC7910DF1F67E029000B57BC /* WKViewModel.swift in Sources */,
+				EC7910E31F67E122000B57BC /* WKViewModel.swift in Sources */,
 				EC7910A61F67CEF7000B57BC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
