@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
   s.author             = { "HuangWenKang" => "417035863@qq.com" }
   s.platform             = :ios, "7.0"
   s.source               = { :git => "https://github.com/KangSky123/WKGoRace.git", :tag => "1.0.0" }
-  s.source_files          = "WKGoRaceProject/**/*"
-  s.requires_arc         = true 
-end
+  s.source_files          = "WKGoRaceProject/WKClass/*.swift"
+  s.requires_arc         = true
+end 
